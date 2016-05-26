@@ -24,7 +24,7 @@ app.use(function(req, res, next) {
 app.use(express.static('public'));
 app.use(express.static('uploads'));
 
-app.post('/upload', upload.single('upload'), function (req, res, next) {
+app.post('/api/upload', upload.single('file'), function (req, res, next) {
 	res.send(req.file.filename);
 	next();
 });

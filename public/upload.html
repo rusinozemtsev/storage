@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -17,7 +15,7 @@
 </form>
 
 <script>
-	storage(document.getElementById('file'), function(err, res) {
+	storage(document.getElementById('file'), '//localhost:3001/api/upload', function(err, res) {
 		console.log(err, res);
 	});
 </script>

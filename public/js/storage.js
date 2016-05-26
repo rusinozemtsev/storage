@@ -1,8 +1,6 @@
 (function() {
-	window.storage = function(fileElement, callback) {
+	window.storage = function(fileElement, serverUrl, callback) {
 		
-		var serverUrl = '//' + location.hostname + ':' + location.port + '/api/upload';
-
 		fileElement.addEventListener('change', function(e) {
 
 			var formData = new FormData();

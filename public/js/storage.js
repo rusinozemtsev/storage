@@ -1,5 +1,5 @@
 (function() {
-	
+
 	window.storage = function(fileElement, serverUrl, callback) {
 
 		fileElement.addEventListener('change', function(e) {

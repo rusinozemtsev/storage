@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
+    "mkdirp": "^0.5.1",
     "multer": "^1.1.0"
   }
 }
